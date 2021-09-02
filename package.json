@@ -1,0 +1,14 @@
+{
+  "name": "e-goitocv",
+  "version": "1.0.0",
+  "description": "Envia dados do egoi para o cv e vice versa",
+  "main": "egoi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Gonçalves irala",
+  "license": "ISC",
+  "dependencies": {
+    "egoisdk": "^1.1.0-RC2"
+  }
+}
