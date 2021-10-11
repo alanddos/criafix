@@ -17,7 +17,7 @@ export const SendLead = (data: any) => {
     console.log(`statusCode: ${res.statusCode}`);
 
     res.on("data", (d) => {
-      process.stdout.write(d);
+      // console.log(JSON.parse(d));
     });
   });
 

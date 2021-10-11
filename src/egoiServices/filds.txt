@@ -1,0 +1,43 @@
+field_id: 08, Profissao
+field_id: 10, Carteira_assinada []
+field_id: 11, Possui_filhos []
+field_id: 13, Estado Civil []
+field_id: 16, Renda_total
+field_id: 17, Escolaridade []
+field_id: 19, Valor_aluguel []
+field_id: 20, Paga_aluguel []
+field_id: 21, Comprar_com []
+field_id: 24, CPF
+field_id: 25, CPF do Conjuge
+field_id: 35, Filho_mais_novo []
+field_id: 36, 2o_comprador_trabalho	
+field_id: 37, CPF
+field_id: 38, CPF do Conjuge
+
+32 - Trabalha com o que atualmente?	Profissao	4
+42 - Você possui carteira assinada?	Carteira_assinada	5
+43 - Possui filhos? Sim ou Não	Possui_filhos	6
+50 - Qual seu estado civil atual?	Estado Civil	7
+52 - Qual é a sua renda + a renda do segundo comprador?	Renda_total	12
+48 - Qual o seu grau de instrução?	Escolaridade	14
+45 - Você paga aluguel atualmente?	Paga_aluguel	19
+53 - Qual o valor aproximado que você paga de Aluguel?	Valor_aluguel	18
+46 - Deseja comprar esse imóvel com mais alguém?	Comprar_com	20
+44 - Se SIM, qual a idade do mais novo?	Filho_mais_novo	21
+47 - Você atualmente mora em Três Lagoas/MS?	Cidade_interesse	22
+31 - DATA DE NASCIMENTO	Data_nascimento	3
+
+EGOI 	ID CONstrutor de VENDAS	ID CV
+
+
+36 - Com quem deseja comprar o imóvel, trabalha com o que?	2o_comprador_prof	8
+
+
+
+
+
+
+
+
+
+

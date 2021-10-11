@@ -14,6 +14,3 @@ const server = app.listen(process.env.PORT, () => {
 initIO(server);
 
 UpsertLeadsOnCv()
-
-
-

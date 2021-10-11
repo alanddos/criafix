@@ -1,8 +1,9 @@
-function ContactsApi(egoiSdk, callback, offset) {
-    var api = new egoiSdk.ContactsApi()
-    // console.log(api);
-    var opts = { offset, limit: 1, email: null, showRemoved: false }
-    api.getAllContacts(1, opts, callback)
+function ContactsApi(egoiSdk, callback, contact) {
+  const api = new egoiSdk.ContactsApi();
+  const opts = {
+    type: "email",
+  };
+  api.searchContacts(contact, opts, callback);
 }
 
-module.exports = { ContactsApi }
+module.exports = { ContactsApi };
